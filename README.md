@@ -1,10 +1,10 @@
-# OrdenhaDiaria / Code Challenge
+# TaskBeats
 
-Daily Milking is a cutting-edge Android application designed to recover and consume liveData from a Google Sheet, enhancing user experiences through visually engaging graphs displayed on the screen. they can see the total, maximum, minimum, media and del of the daily milking introduced on Google Sheet (spreadsheet).
+TaskBeats it is an app to run daily tasks for the user with a very friendly UI, user can add new task, delete a unwanted task, delte all at the same time or/also, read news about technology.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/result/taskbeats.png" width="260">&emsp;<img src="/result/taskbeats2.png" width="260">; <img src="/result/taskbeats3.png" width="260">; <img src="/result/taskbeats4.png" width="260">
+<img src="/result/taskbeats.png" width="260">&emsp; <img src="/result/taskbeats3.png" width="260">; <img src="/result/taskbeats4.png" width="260">
 
 # Technologies
 * Kotlin 100%
@@ -13,9 +13,14 @@ Daily Milking is a cutting-edge Android application designed to recover and cons
 * Room database
 * JUnit
 * Mockito
+* Unit test
+* FindViewById
+* RecyclerView
+* Task List Fragment
 
 ### To Do
 * Repository Pattern
+* Better UI 
 
 ## Author
 
