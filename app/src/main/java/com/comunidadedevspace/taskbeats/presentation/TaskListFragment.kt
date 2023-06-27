@@ -9,8 +9,7 @@ import android.widget.LinearLayout
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import com.comunidadedevspace.taskbeats.R
-import com.comunidadedevspace.taskbeats.data.Task
-
+import com.comunidadedevspace.taskbeats.data.local.Task
 
 /**
  * A simple [Fragment] subclass.
@@ -45,6 +44,7 @@ class TaskListFragment : Fragment() {
         // RecyclerView
         val rvTask: RecyclerView = view.findViewById(R.id.rv_task_list)
         rvTask.adapter = adapter
+
     }
 
     override fun onStart() {
